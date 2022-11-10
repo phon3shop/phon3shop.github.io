@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhoneShop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/f4ef8420ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <i class="fa-solid fa-mobile"></i>Shop
+                </a>
+                <nav>
+                    <a href="#" class="nav__link">Главная</a>
+                    <a href="#" class="nav__link">Каталог</a>
+                    <a href="#" class="nav__link">Контакты</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="slider">
+        <div class="slider__view">
+            <div class="slider__item">
+                <img src="img/slide1.jpg" alt="slide">
+                <h1>Welcome</h1>
+            </div>
+            <div class="slider__item">
+                <img src="img/slide2.jpg" alt="slide">
+                <h1>to</h1>
+            </div>
+            <div class="slider__item">
+                <img src="img/slide3.jpg" alt="slide">
+                <h1>Phone</h1>
+            </div>
+            <div class="slider__item">
+                <img src="img/slide4.jpg" alt="slide">
+                <h1>Shop!</h1>
+            </div>
+        </div>
+        <div class="slider__btns">
+            <div class="slider__btn active" onclick="toSlide(1)"></div>
+            <div class="slider__btn" onclick="toSlide(2)"></div>
+            <div class="slider__btn" onclick="toSlide(3)"></div>
+            <div class="slider__btn" onclick="toSlide(4)"></div>
+        </div>
+    </div>
+    <section class="catalog">
+        <div class="container">
+            <h1>Каталог</h1>
+            <div class="catalog__view">
+                <div class="catalog__item">
+                    <img src="img/phone1.png" alt="phone">
+                    <h3>IPhone X</h3>
+                    <p>45 000 руб.</p>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+                <div class="catalog__item">
+                    <img src="img/phone2.png" alt="phone">
+                    <h3>Honor 8X</h3>
+                    <p>14 000 руб.</p>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+                <div class="catalog__item">
+                    <img src="img/phone3.png" alt="phone">
+                    <h3>Redmi Note 9</h3>
+                    <p>18 000 руб.</p>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+                <div class="catalog__item">
+                    <img src="img/phone4.png" alt="phone">
+                    <h3>Nokia 3310</h3>
+                    <p>33 103 310 руб.</p>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/slider.js"></script>
+</body>
+</html>
